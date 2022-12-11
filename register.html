@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vaccination registration system</title>
+    <link rel="stylesheet" href="css\register.css" />
+    <style>
+
+
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar">
+        <div id="logo">
+          <img src="img\logo.png" alt="covid vaccination" />
+        </div>
+        <ul>
+          <li class="item"><a href="index1.html">Home</a></li>
+          <li class="item"><a href="faq.html">FAQ</a></li>
+          
+      </nav>
+    </header>
+
+      
+        <form class="inputform" action="place.html">
+          <label id="labelname">Register</label>
+        <table>
+          
+        <tr>
+        <div>
+          <td> <label id="text">Name</label></td>
+          <td><input id="firstname" type="text" placeholder="Enter Your Name" required/></td>
+        </div>
+        </tr>
+        <tr>
+        <div>
+          <td><label id="text"  > Gender:- </label></td>
+          <td>
+            <input  type="radio" name="demo"/>
+          <label id="text">Male</label>
+          <input type="radio" name="demo" />
+          <label id="text" >Female</label>
+          </td>
+        </div>
+        </tr>
+        <tr>
+        <div>
+          <td><label id="text"> Date of Birth </label> </td>
+          <td><input id="photoid" type="Date" placeholder="Enter your Birth Date" required></td>
+        </div>
+        </tr>
+        <tr>
+        <div>
+          <td><label id="text">Photo ID Proof</label></td>
+          <td><select id="photoid" required> 
+          <option  selected=true>Aadhar Card</option>
+          <option>Voter ID</option>
+          <option>Driving License</option>
+          <option>PAN Card</option>
+          </select></td>
+        </div>
+        </tr>
+        <tr>
+        <div>
+          <td><label id="text">Photo ID Number</label></td>
+          <td><input id="photoid" type="text" placeholder="Enter Photo ID Number" required /></td>
+        </div>
+        </tr>
+      </table>
+      <br>
+      <div>
+        <center><button class="button">Register</button></center>
+      </div>
+      
+    </form>
+  </body>
+</html>
