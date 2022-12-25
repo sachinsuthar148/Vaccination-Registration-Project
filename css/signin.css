@@ -182,4 +182,5 @@ header::before {
   margin: 4px 11px;
   padding: 4px 32px;
   text-decoration: none;
+  cursor: pointer;
 }
